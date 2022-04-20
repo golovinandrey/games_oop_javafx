@@ -22,7 +22,6 @@ public class WinTest {
         assertThat(Win.check(board), is(true));
     }
 
-
     @Test
     public void whenHorizontalWin() {
         int[][] board = {
